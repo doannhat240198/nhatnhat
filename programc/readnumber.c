@@ -9,15 +9,6 @@ Description: input number and print read digits
 uint32_t number; //save number
 uint8_t has_zero = 0; //variable SET up 1 when have 0
 /*function read number*/
-/*
-* Function: printNum
-* Description: This function use for print number
-* Input:
-*   num - input number
-*   loca - index number in array
-* Output:
-*   return: none
-*/
 void printNum(uint8_t num, uint8_t loca){  
     switch (num)
     {
